@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Employee</string>
+    <string name="Empty_field_err_msg">Please fill all the input fileds</string>
+</resources>

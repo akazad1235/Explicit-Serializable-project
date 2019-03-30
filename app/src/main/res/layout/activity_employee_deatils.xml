@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeDeatilsActivity">
+
+    <TableRow
+        android:background="#2f44ab"
+        android:padding="10dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee Name: "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tab_name_value"
+            android:text="name"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:background="#2f44ab"
+        android:padding="10dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee age: "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tab_age_value"
+                android:text="age"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:background="#2f44ab"
+        android:padding="10dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee Email: "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tab_email_value"
+            android:text="email"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="#2f44ab"
+        android:padding="10dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee phone: "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tab_phone_value"
+            android:text="phone"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+
+    </TableRow>
+
+
+
+
+</TableLayout>
